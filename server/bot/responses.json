@@ -1,0 +1,31 @@
+{
+
+  "answers": [
+    {
+      "intent": "general_hello",
+      "answer": "Hello world."
+    },
+    {
+      "intent": "general_who_made_you",
+      "answer": "DSIA students made me!"
+    },
+    {
+      "intent": "provide_leads",
+      "answer": "Please visit <b>eAmber Reporting website</b>..<a href=\"https://eamber.azurewebsites.net\" target=\"new\">Here </a>"
+    },
+    {
+      "intent": "eAmber_Updates",
+      "answer": "Please visit <b>Missing Kids website</b>..<a href=\"http://www.missingkids.com\" target=\"new\">Here </a>"
+    },
+    {
+      "intent": "eAmber_Info",
+      "answer": "Please visit <b>Amber Alert website</b>..<a href=\"https://www.amberalert.gov\" target=\"new\">Here </a>"
+    },
+    {
+      "intent": "None",
+      "modelq": "Exclude",
+      "shortq": "Exclude",
+      "answer": "Sorry, I do not understand. Please try and re-phrase your question."
+    }
+  ]
+}
